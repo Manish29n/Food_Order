@@ -1,0 +1,188 @@
+/*
+    Author: Manish N,Pavan A L;
+    Theme: Food Order Website Admin;
+    Version: 1.0;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', georgia, arial !important;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: white;
+}
+
+.last a:link, a:active{
+    color:#ff4757;
+}
+.wrapper {
+    border: 1px;
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.links a {
+    color: #e5232d;
+}
+
+.links a:hover {
+    color: #ffa624;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #e5232d;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ffa624;
+}
+
+.btn-secondary {
+    background-color: #50d950;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: lightgreen;
+}
+
+.btn-danger {
+    background-color: #f34444;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #f07171;
+}
+
+.btn-tertiary {
+    background-color: #4474f7;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-tertiary:hover {
+    background-color: #6d90f0;
+}
+
+.success {
+    color: #2ed573;
+}
+
+.error {
+    color: #ff4757;
+}
+
+
+/* CSS for Menu */
+
+.menu {
+    background-color: #e5232d;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: #111;
+    background-color: #fea726;
+    border-left-color: #fff;
+}
+
+
+/* CSS for Main-Content */
+
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* CSS for footer */
+
+.footer {
+    background-color: #404040;
+    color: white;
+}
+
+.footer a {
+    color: #e5232d;
+}
+
+.footer a:hover {
+    color: #ffa624;
+}
+
+
+/* CSS for Login */
+
+.login {
+    border: 1px solid grey;
+    background-color: cornflowerblue;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
